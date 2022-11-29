@@ -37,8 +37,27 @@
     border: 0px solid transparent;
     transition: 0.2s ease;
   }
-  /*images*/
-  img{
+ 
+/*carte*/
+.sec1 .container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    max-width:1500ppx;
+    margin:0 auto;
+}
+.sec1 .card{
+    height : 550px;
+    width:   450px;
+    background-color : #3534448;/*changer en blanc*/
+    border-radius: 15px;
+    margin:20px;
+}
+.sec1 .card .img{
+    background: linear-gradient(to top,#D3D3D3);
+}
+ /*images*/
+  .sec1 img{
     width: 150px;
     height: 150px;
     float: left;
@@ -47,21 +66,22 @@
     border-radius: 50%;
     text-align: center;
   }
-  img:hover{
+ .sec1 img:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
-  .image{
+ /** .image{
     /*display: flex;
     justify-content: space-around;
     align-items: center;*/
     border: 0;
     text-decoration: none;
-  }
-  .name{
+  }**/
+.sec1 .name{
     font-family: Impact, fantasy;
-  }
-  .job{
+}
+.sec1 .job{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
+    
